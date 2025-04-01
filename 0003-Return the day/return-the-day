@@ -1,0 +1,19 @@
+function whatday(num) {
+  if (1 === num) {
+    return "Sunday";
+  } else if (2 === num) {
+    return "Monday";
+  } else if (3 === num) {
+    return "Tuesday";
+  } else if (4 === num) {
+    return "Wednesday";
+  } else if (5 === num) {
+    return "Thursday";
+  } else if (6 === num) {
+    return "Friday";
+  } else if (7 === num) {
+    return "Saturday";
+  } else {
+    return "Wrong, please enter a number between 1 and 7";
+  }
+}
